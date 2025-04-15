@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch index.ts",
+    "db:generate": "drizzle-kit generate ",
+    "db:push": "node -r esbuild-register db/migrate.ts"
+  },
+  "author": "",
+  "keywords": [],
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "esbuild-register": "^3.6.0",
+    "express": "^5.1.0",
+    "pg": "^8.14.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.17",
+    "@types/pg": "^8.11.11",
+    "@vercel/postgres": "^0.10.0",
+    "drizzle-kit": "^0.30.6",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE "todolist" DROP COLUMN "timezone_offset";

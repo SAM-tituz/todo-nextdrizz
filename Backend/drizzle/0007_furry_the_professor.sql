@@ -1,0 +1,1 @@
+ALTER TABLE "todolist" RENAME COLUMN "duration_days" TO "duration_hours";

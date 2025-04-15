@@ -1,0 +1,1 @@
+ALTER TABLE "todolist" ALTER COLUMN "created_at" DROP DEFAULT;
