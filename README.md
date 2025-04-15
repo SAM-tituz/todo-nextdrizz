@@ -1,6 +1,7 @@
 # Todo List Application with Time Tracking
 
-![image](https://github.com/user-attachments/assets/f03cfdfe-fe8e-4afc-bb81-4071d456b38f)
+![image](https://github.com/user-attachments/assets/bdee10cd-c11e-4659-bbfb-fc9442ee8d12)
+
 
 A full-stack todo list application with time tracking features, built with Next.js, TypeScript, and Drizzle ORM.
 
